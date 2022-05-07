@@ -76,22 +76,18 @@ button {
 	border: 0;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-	color: #fff;
 	opacity: 1;
 	font-weight: 500;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-	color: #fff;
 	opacity: 1;
 	font-weight: 500;
 }
 :-ms-input-placeholder { /* IE 10+ */
-	color: #fff;
 	opacity: 1;
 	font-weight: 500;
 }
 :-moz-placeholder { /* Firefox 18- */
-	color: #fff;
 	opacity: 1;
 	font-weight: 500;
 }
@@ -247,7 +243,6 @@ button {
 
 	}
 	.main {
-		height: 100vh;
 		background: url('../image/main-bg.png');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -267,8 +262,8 @@ button {
 	}
 	.main-flex {
 		display: flex;
-		height: 100vh;
 		align-items: center;
+		padding: 175px 0 150px 0;
 	}
 	.main-flex-item {
 		width: 100%;
